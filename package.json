@@ -50,6 +50,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.7",
     "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.4",
     "marked": "^4.3.0",
     "stylelint-scss": "^4.6.0",
     "zero-md": "^2.4.0"

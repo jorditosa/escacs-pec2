@@ -20,3 +20,12 @@ body {
   width: 100%;
   max-width: 70px;
 }
+
+.bi {
+  font-size: 2rem;
+  color: $dark;
+
+  &:hover {
+    color: $light;
+  }
+}
