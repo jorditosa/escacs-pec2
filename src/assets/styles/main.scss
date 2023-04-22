@@ -8,6 +8,7 @@
  */
 
 @import "variables";
+@import "root";
 
 /**
  * Import npm dependencies
@@ -21,8 +22,8 @@
  * Import layouts
  * It's a best practice to use a different partial for each page
  */
-@import "root";
 @import "layouts/home";
+@import "layouts/header";
 
 /**
  * Do NOT include anything else in this file!
