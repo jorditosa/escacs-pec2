@@ -12,16 +12,35 @@
   </head>
   <body>
     
-    <include src="./views/header.html"></include>
+    <div class="home">
+
+      <include src="./views/header.html"></include>
+
+      <main class="home__heading"> 
+        <div class="container pt-5">
+          <h1 class="hero__heading text-dark display-1 fw-bold text-center">Club Gambito de Dama</h1>
+        </div>
+      </main>
+  
+      <section class="home__links">
+          <div class="home__links--item">
+            <a href="./about.html">
+              <img src="./assets/images/players.jpg" alt="About">
+            </a>
+          </div>
+          <div class="home__links--item">
+            <a href="./blog.html">
+              <img src="./assets/images/blog.jpg" alt="Blog">
+            </a>
+          </div>
+          <div class="home__links--item">
+            <a href="./contact.html">
+              <img src="./assets/images/plays.jpg" alt="Contact">
+            </a>
+          </div>
+      </section>
+    </div>
     
-    <main class="hero d-flex flex-column justify-content-center align-items-center">
-
-      <div class="container">
-        <h1 class="hero__heading text-dark display-1 fw-bold text-center pb-5">Club Gambito de Dama</h1>
-      </div>
-
-    </main>
-
     <include src="./views/footer.html"></include>
 
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
