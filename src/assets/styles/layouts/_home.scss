@@ -42,16 +42,8 @@ body {
     align-items: center;
 
     & h1 {
-      font-size: calc(100vw/15);
-      text-transform: uppercase; /* convertir todo el texto del título a mayúsculas */
-      -webkit-text-fill-color: transparent; /* hacer que el color del texto sea transparente */
-      text-shadow: 
-        2px 2px 0px $primary, /* sombra negra hacia abajo y hacia la derecha */
-        -2px -2px 0px rgba($color: $secondary, $alpha: 0.3);
-
-      @media (min-width: $tablet) {
-        font-size: calc(100vw/30);
-      }
+      text-transform: uppercase; 
+      text-shadow: 1px 1px 5px rgba($color: $primary, $alpha: 0.8);
     }
   }
 
