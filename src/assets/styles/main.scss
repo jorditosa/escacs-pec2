@@ -18,6 +18,11 @@
 
 @import "~bootstrap/scss/bootstrap";
 
+/*
+import Utilities
+*/
+@import "utilities/mixins";
+
 /**
  * Import layouts
  * It's a best practice to use a different partial for each page
