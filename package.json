@@ -49,6 +49,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.7",
+    "@zkreations/imagehover": "^1.1.0",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.4",
     "marked": "^4.3.0",
