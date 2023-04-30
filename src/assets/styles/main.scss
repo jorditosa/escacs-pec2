@@ -2,6 +2,10 @@
  * Use this file to import partials.
  * Do not include SCSS code in this file.
  */
+ /*
+ import Utilities
+ */
+ @import "utilities/mixins";
 
 /**
  * Import variables
@@ -20,10 +24,6 @@
 
 @import "~@zkreations/imagehover/scss/main.scss";
 
-/*
-import Utilities
-*/
-@import "utilities/mixins";
 
 /**
  * Import layouts
@@ -31,6 +31,8 @@ import Utilities
  */
 @import "layouts/home";
 @import "layouts/about";
+@import "layouts/blog";
+@import "layouts/plays";
 @import "layouts/header";
 @import "layouts/footer";
 

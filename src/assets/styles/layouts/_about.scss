@@ -1,4 +1,6 @@
-/* Bootrsap refactor */
+.about__heading {
+    @include color-heading($primary);
+}
 
 .card-img-top {
     height: 320px;

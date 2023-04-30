@@ -44,10 +44,21 @@ $theme-colors: (
   "dark": $dark,
 );
 
-
 // Media queries
 
 $mobile: 320px;
 $tablet: 768px;
 $desktop: 1024px;
 
+ // Rooting CARD component
+ $card-height: 600px;
+
+.card {
+  --bs-card-height: $card-height;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

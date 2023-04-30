@@ -1,5 +1,4 @@
 // Reset template
-// https://www.boag.online/blog/css-reset
 *, *:before, *:after{
   box-sizing: border-box;
 }
@@ -54,10 +53,10 @@ a {
 
 .bi {
     font-size: 2rem;
-    color: $dark;
+    color: $light;
   
     &:hover {
-      color: $light;
+      color: $secondary;
     }
   }
 
@@ -66,3 +65,4 @@ a {
     height: auto;
     display: block;
   }
+
