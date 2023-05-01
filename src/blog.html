@@ -10,17 +10,41 @@
     <title>Blog | Club Gambito de dama</title>
     <script type="module" src="/node_modules/zero-md/dist/zero-md.min.js"></script>
   </head>
-  <body class="bg-secondary">
+  <body>
 
     <include src="./views/header.html"></include>
-
-    <div class="container">
-      <h1 class="blog__heading display-1 fw-bold text-center">Noticies i esdeveniments</h1>
-
-    </div>
+ 
+    <section class="blog__carousel">
+      <div class="container">
+        <h1 class="blog__heading display-1 fw-bold text-center">Noticies i esdeveniments</h1>
+      </div>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/images/blog/news_1.jpg" class="d-block w-100" alt="#">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/blog/news_2.jpg" class="d-block w-100" alt="#">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/blog/news_3.jpg" class="d-block w-100" alt="#">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
 
 
     <include src="./views/footer.html"></include>
+
+    <include src="./views/scripts.html"></include>
 
   </body>
 </html>
