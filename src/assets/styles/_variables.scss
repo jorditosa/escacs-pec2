@@ -1,39 +1,40 @@
 @use "sass:color";
 
 @font-face {
-  font-family: Borna;
+  font-family: Aino;
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/webfontkit/borna-regular-webfont.ttf") format('truetype'),
+  src: url("../fonts/AinoWeb-Regular.woff") format('woff'),
 }
 
 @font-face {
-  font-family: Borna;
+  font-family: Aino;
   font-style: bold;
   font-weight: 700;
-  src: url("../fonts/webfontkit/borna-bold-webfont.ttf") format('truetype'),
+  src: url("../fonts/AinoWeb-Bold.woff") format('woff'),
 }
 
 @font-face {
-  font-family: Borna;
+  font-family: Aino;
   font-style: bold;
   font-weight: 600;
-  src: url("../fonts/webfontkit/borna-semibold-webfont.ttf") format('truetype'),
+  font-style: italic;
+  src: url("../fonts/AinoWeb-BoldItalic.woff") format('woff'),
 }
 
 @font-face {
-  font-family: Borna;
+  font-family: Aino;
   font-weight: 400;
   font-style: italic;
-  src: url("../fonts/webfontkit/borna-regularitalic-webfont.ttf") format('truetype'),
+  src: url("../fonts/AinoWeb-Italic.woff") format('woff'),
 }
 
-$font-family-reg: Borna, sans-serif;
-$font-family-bold: Borna, sans-serif;
+$font-family-reg: Aino, monospace;
+$font-family-bold: Aino, monospace;
 
 
-$primary: #393e46;
-$secondary: #00adb5;
+$primary: #0000f0;
+$secondary: #00005a;
 $light: #eee;
 $dark: #222831;
 
