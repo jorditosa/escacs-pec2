@@ -42,7 +42,6 @@ table{
 }
 
 input{
-  -webkit-appearance: none;
   border-radius: 0;
 }
 
@@ -53,10 +52,11 @@ a {
 
 .bi {
     font-size: 2rem;
-    color: $light;
+    color: $dark;
+    transition: all 0.3s ease-in-out;
   
     &:hover {
-      color: $secondary;
+      color: $primary;
     }
   }
 

@@ -1,132 +1,135 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="icon" href="./assets/images/logo.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <title>Blog | Club Gambito de dama</title>
-    <script type="module" src="/node_modules/zero-md/dist/zero-md.min.js"></script>
-  </head>
-  <body>
 
-    <include src="./views/header.html"></include>
- 
-    <section class="blog__carousel">
-      <div class="container">
-        <h1 class="plays__heading display-1 text-primary fw-bold text-center">Videos i pràctica</h1>
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Blog</li>
-          </ol>
-        </nav>
-      </div>
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./assets/images/blog/news_1.jpg" class="d-block w-100" alt="#">
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/images/blog/news_2.jpg" class="d-block w-100" alt="#">
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/images/blog/news_3.jpg" class="d-block w-100" alt="#">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
-      </div>
-    </section>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" href="./assets/images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <title>Blog | Club Gambito de dama</title>
+  <script type="module" src="/node_modules/zero-md/dist/zero-md.min.js"></script>
+</head>
 
-    <main class="container">
-      
-      <div class="row py-5">
+<body>
 
-        <div class="col-xl-6 col-12 mb-5 mb-xl-0">
-          <div class="media media-news">
-            <div class="media-img">
-              <picture>
-                <source srcset="./assets/images/blog/news_1.webp" media="image/webp">
-                <img src="./assets/images/blog/news_1.jpg" alt="Generic placeholder image">
-              </picture>
-            </div>
-            <div class="media-body">
-              <span class="media-date">25 july 2017</span>
-              <h5 class="mt-0 sep">Finibus Bonorum Malor.</h5>
-              <p>Lorem ipsum dolor amet consectetur adip sicing elit sed eiusm tempor incididunt ut labore dolore.</p>
-              <a href="#" class="btn btn-outline-secondary">View More</a>
-            </div>
-          </div>
+  <include src="./views/header.html"></include>
+
+  <section class="blog__carousel">
+    <div class="container">
+      <h1 class="plays__heading display-1 text-primary fw-bold text-center pt-5">Noticies Chessy</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Blog</li>
+        </ol>
+      </nav>
+    </div>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/images/blog/news_1.jpg" class="d-block w-100" alt="#">
         </div>
-        
-        <div class="col-xl-6 col-12">
-          <div class="media media-news">
-            <div class="media-img">
-              <picture> 
-                <source srcset="./assets/images/blog/news_2.webp" media="image/webp">
-                <img src="./assets/images/blog/news_2.jpg" alt="Generic placeholder image">
-              </picture>
-            </div>
-            <div class="media-body">
-              <span class="media-date">13 August 2018</span>
-               <h5 class="mt-0 sep"> Tincidunt dui ornare</h5>
-              <p>Facilisi morbi tempus iaculis urna id volutpat lacus. Mi eget mauris pharetra et. Fermentum iaculis</p>
-              <a href="#" class="btn btn-outline-secondary">View More</a>
-            </div>
-          </div>
+        <div class="carousel-item">
+          <img src="./assets/images/blog/news_2.jpg" class="d-block w-100" alt="#">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/blog/news_3.jpg" class="d-block w-100" alt="#">
         </div>
       </div>
-      
-      <div class="row no-gutters mt-4">
-        <div class="col-xl-6 col-12 mb-5 mb-xl-0">
-          <div class="media media-news">
-            <div class="media-img">
-              <picture> 
-                <source srcset="./assets/images/blog/news_3.webp" media="image/webp">
-                <img src="./assets/images/blog/news_3.jpg" alt="Generic placeholder image">
-              </picture>
-            </div>
-            <div class="media-body">
-              <span class="media-date">25 july 2017</span>
-              <h5 class="mt-0 sep">Finibus Bonorum Malor.</h5>
-              <p>Lorem ipsum dolor amet consectetur adip sicing elit sed eiusm tempor incididunt ut labore dolore.</p>
-              <a href="#" class="btn btn-outline-secondary">View More</a>
-            </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+
+  <main class="container">
+
+    <div class="row py-5">
+
+      <div class="col-xl-6 col-12 mb-5 mb-xl-0">
+        <article class="media media-news">
+          <div class="media-img">
+            <picture>
+              <source srcset="./assets/images/blog/news_1.webp" media="image/webp">
+              <img src="./assets/images/blog/news_1.jpg" alt="Generic placeholder image">
+            </picture>
           </div>
-        </div>
-        
-        <div class="col-xl-6 col-12">
-          <div class="media media-news">
-            <div class="media-img">
-              <picture> 
-                <source srcset="./assets/images/blog/news_4.webp" media="image/webp">
-                <img src="./assets/images/blog/news_4.jpg" alt="Generic placeholder image">
-              </picture>
-            </div>
-            <div class="media-body">
-              <span class="media-date">13 August 2018</span>
-               <h5 class="mt-0 sep"> Tincidunt dui ornare</h5>
-              <p>Facilisi morbi tempus iaculis urna id volutpat lacus. Mi eget mauris pharetra et. Fermentum iaculis</p>
-              <a href="#" class="btn btn-outline-secondary">View More</a>
-            </div>
+          <div class="media-body">
+            <span class="media-date">25 july 2017</span>
+            <h5 class="mt-0 sep">Peter Leko, campió del Campionat d'Escacs de Munic</h5>
+            <blockquote>El Gran Mestre hongarès Peter Leko guanya el Campionat d'Escacs de Munic.</blockquote>
+            <a href="#" class="btn btn-outline-secondary">Llegir més</a>
           </div>
-        </div>
+        </article>
       </div>
+
+      <div class="col-xl-6 col-12">
+        <article class="media media-news">
+          <div class="media-img">
+            <picture>
+              <source srcset="./assets/images/blog/news_2.webp" media="image/webp">
+              <img src="./assets/images/blog/news_2.jpg" alt="Generic placeholder image">
+            </picture>
+          </div>
+          <div class="media-body">
+            <span class="media-date">13 August 2018</span>
+            <h5 class="mt-0 sep">Abhimanyu Mishra esdevé el gran mestre més jove de la història dels escacs</h5>
+            <blockquote>El jove prodigi dels escacs, Abhimanyu Mishra, esdevé el gran mestre més jove de la història.</blockquote>
+            <a href="#" class="btn btn-outline-secondary">Llegir més</a>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="row no-gutters mt-4">
+      <article class="col-xl-6 col-12 mb-5 mb-xl-0">
+        <div class="media media-news">
+          <div class="media-img">
+            <picture>
+              <source srcset="./assets/images/blog/news_3.webp" media="image/webp">
+              <img src="./assets/images/blog/news_3.jpg" alt="Generic placeholder image">
+            </picture>
+          </div>
+          <div class="media-body">
+            <span class="media-date">25 july 2017</span>
+            <h5 class="mt-0 sep">Fabiano Caruana, campió del torneig de Candidats de la FIDE</h5>
+            <blockquote>El campió dels Estats Units, Fabiano Caruana, es proclama campió del torneig de Candidats de la FIDE.</blockquote>
+            <a href="#" class="btn btn-outline-secondary">Llegir més</a>
+          </div>
+        </div>
+      </article>
+
+      <div class="col-xl-6 col-12">
+        <article class="media media-news">
+          <div class="media-img">
+            <picture>
+              <source srcset="./assets/images/blog/news_4.webp" media="image/webp">
+              <img src="./assets/images/blog/news_4.jpg" alt="Generic placeholder image">
+            </picture>
+          </div>
+          <div class="media-body">
+            <span class="media-date">13 August 2018</span>
+            <h5 class="mt-0 sep">Ajornament de les Olimpíades d'Escacs fins al 2024 segons la FIDE</h5>
+            <blockquote>La Federació Internacional d'Escacs anuncia l'ajornament de les Olimpíades d'Escacs fins al 2024.</blockquote>
+            <a href="#" class="btn btn-outline-secondary">Llegir més</a>
+          </div>
+        </article>
+      </div>
+    </div>
   </main>
 
 
-    <include src="./views/footer.html"></include>
+  <include src="./views/footer.html"></include>
 
-    <include src="./views/scripts.html"></include>
+  <include src="./views/scripts.html"></include>
 
-  </body>
+</body>
+
 </html>

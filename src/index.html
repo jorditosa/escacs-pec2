@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <title>Home | Club Gambito de dama</title>
-    <include src="./views/head.html"></include>
-  </head>
-  <body>
-    
-    <div class="home">
 
-      <include src="./views/header.html"></include>
+<head>
+  <title>Home | Club Gambito de dama</title>
+  <include src="./views/head.html"></include>
+</head>
 
-      <main class="home__heading container"> 
-          <h1 class="hero__heading text-secondary display-1 fw-bold text-center">Club Gambito de Dama</h1>
-      </main>
-  
-      <section class="home__links">
-          <div class="home__links--item">
-            <a href="./about.html">
-              <figure class="img-flip-xy h-100">
-                <img src="./assets/images/players.jpg" alt="About">
-                <figcaption class="text-center text-light fw-bold fs-1">Players</figcaption>
-              </figure>
-            </a>
-          </div>
-          <div class="home__links--item">
-            <a href="./blog.html">
-              <figure class="img-flip-xy h-100">
-                <img src="./assets/images/blog.jpg" alt="Blog">
-                <figcaption class="text-center text-light fw-bold fs-1">Blog</figcaption>
-              </figure>
-            </a>
-          </div>
-          <div class="home__links--item">
-            <a href="./plays.html">
-              <figure class="img-flip-xy h-100">
-                <img src="./assets/images/plays.jpg" alt="Contact">
-                <figcaption class="text-center text-light fw-bold fs-1">Pràctica</figcaption>
-              </figure>
-            </a>
-          </div>
-      </section>
-    </div>
-    
-    <include src="./views/footer.html"></include>
+<body>
 
-    <include src="./views/scripts.html"></include>
-    
-  </body>
+  <div class="home bg-info">
+
+    <include src="./views/header.html"></include>
+
+    <main class="layout">
+      <h1 class="layout__heading text-primary text-center container-fluid">Club<br />Gambito de Dama</h1>
+
+      <div class="layout__links--1">
+        <a href="./about.html">
+          <figure class="img-flip-x m-0">
+            <img src="./assets/images/players.jpg" alt="About" class="layout__links--img">
+            <figcaption class="d-none d-md-flex text-center text-light fw-bold fs-1">Players</figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="layout__links--2">
+        <a href="./blog.html">
+          <figure class="img-flip-x m-0">
+            <img src="./assets/images/blog.jpg" alt="Blog" class="layout__links--img">
+            <figcaption class="d-none d-md-flex text-center text-light fw-bold fs-1">Blog</figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="layout__links--3">
+        <a href="./plays.html">
+          <figure class="img-flip-x m-0">
+            <img src="./assets/images/plays.jpg" alt="Contact" class="layout__links--img">
+            <figcaption class="d-none d-md-flex text-center text-light fw-bold fs-1">Pràctica</figcaption>
+          </figure>
+        </a>
+      </div>
+    </main>
+
+  </div>
+
+  <include src="./views/footer.html"></include>
+
+  <include src="./views/scripts.html"></include>
+
+</body>
+
 </html>
