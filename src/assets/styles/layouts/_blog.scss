@@ -3,7 +3,11 @@
 .blog__carousel{
 
     & .carousel-inner {
-        height: 50vh;
+        height: 100%;
+
+        @media (min-width: $tablet) {
+            height: 50vh;
+        }
     }
 }
 
