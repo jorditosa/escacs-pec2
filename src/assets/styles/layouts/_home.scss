@@ -27,17 +27,22 @@
 
   &__heading {
     width: 100%;
-    place-items: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/hero.jpg);
     grid-column: 1 / 2;
     font-size: 3em;
     font-weight: bold;
     text-transform: uppercase;
-    text-shadow: 2px 2px 5px rgba($color: $dark, $alpha: 0.8);
+    text-shadow: 2px 2px 5px rgba($color: $primary, $alpha: 0.8);
+    background-color: #fff;
 
     @media (min-width: $tablet) {
       grid-column: 1 / 4;
       grid-row: 1 / 2;
-      font-size: 5em;
+      font-size: 8em;
     }
   }
 

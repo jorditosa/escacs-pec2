@@ -54,6 +54,7 @@
     "bootstrap-icons": "^1.10.4",
     "bootstrap-sass": "^3.4.3",
     "bootstrap-scss": "^5.2.3",
+    "i18next": "^22.4.15",
     "marked": "^4.3.0",
     "stylelint-scss": "^4.6.0",
     "zero-md": "^2.4.0"
