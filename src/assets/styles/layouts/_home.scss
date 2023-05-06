@@ -20,6 +20,23 @@
   grid-template-rows: 1fr;
   place-items: center;
 
+  // Utilitzem la directiva @supports per comprovar si el navegador suporta CSS Grid
+  @supports (display: grid) {
+    // Si el navegador suporta CSS Grid, apliquem l'estil de graella amb CSS Grid
+    .layout {
+      @extend .layout;
+    }
+  }
+  // Si el navegador no suporta CSS Grid, apliquem l'estil de graella amb Flexbox
+  @supports not (display: grid) {
+    .layout {
+      display: none;
+    }
+    .layout-flex {
+      @extend .layout;
+    }
+  }
+
   @media (min-width: $tablet) {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 50vh;
@@ -35,9 +52,9 @@
     grid-column: 1 / 2;
     font-size: 3em;
     font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 5px rgba($color: $primary, $alpha: 0.8);
     background-color: #fff;
+
+    @include color-heading($light, $primary);
 
     @media (min-width: $tablet) {
       grid-column: 1 / 4;
@@ -79,10 +96,13 @@
     }
   }
 
-
   &__links--img {
     width: 100%;
     height: 50vh;
     object-fit: cover;
   }
+}
+
+.layout-flex {
+  display: flex;
 }

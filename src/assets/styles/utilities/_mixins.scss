@@ -1,5 +1,6 @@
 // Heading color
-@mixin color-heading($color) {
-    color: $color;
+@mixin color-heading($color, $shadow, $darken: 10%) {
+    color: darken($color: $color, $amount: $darken);
+    text-shadow: 2px 2px 5px $shadow;
   }
 

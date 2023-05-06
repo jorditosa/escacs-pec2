@@ -1,8 +1,6 @@
 .footer {
 
-    &__contact {
-
-        & a {
+    &__contact a {
             display: block;
             color: $dark;
             text-decoration: none;
@@ -12,5 +10,4 @@
                 color: $light;
             }
         }
-    }
 }

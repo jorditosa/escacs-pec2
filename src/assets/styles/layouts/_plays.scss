@@ -1,0 +1,6 @@
+.plays {
+
+    &__heading {
+        @include color-heading($primary, $dark);
+    }
+}

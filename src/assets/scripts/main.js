@@ -19,6 +19,22 @@ import { esLocale } from '../../locales/es';
 /******
  * Translations
 ******/
+// render translation to html
+i18next.init({
+  lng: 'es',
+  debug: true,
+  resources: {
+    es: {
+      translation: caLocale
+    },
+    ca: {
+      translation: esLocale
+    }
+  },
+  
+}, function(err, t) {
+  updateContent();
+});
 
 // Agrega un controlador de eventos al botón para cambiar el idioma
 document.querySelector('#switch-lang').addEventListener('click', function() {
@@ -37,22 +53,6 @@ document.querySelector('#switch-lang').addEventListener('click', function() {
     });
   });
   
-  // render translation to html
-  i18next.init({
-    lng: 'es',
-    debug: true,
-    resources: {
-      es: {
-        translation: caLocale
-      },
-      ca: {
-        translation: esLocale
-      }
-    },
-    
-  }, function(err, t) {
-    updateContent();
-  });
   
    // Función para actualizar el contenido de la página con las traducciones
    function updateContent() {

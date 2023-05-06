@@ -7,7 +7,7 @@ export const esLocale = {
     "practice": "Práctica",
     },
     home: {
-    "heading": "Club Gambito de Dama",
+    "heading": "&copy; Club Gambito de Dama",
     },
     about: {
     "heading": "Equipo Gambito de Dama",
@@ -31,6 +31,10 @@ export const esLocale = {
     practice: {
         "heading": "Crecer como jugador/a",
         "subheading": "Aprender a jugar al ajedrez es un proceso que requiere tiempo y dedicación. Estas son algunas de las mejores herramientas para ayudarte a mejorar tu juego. En esta sección, encontrarás recursos para aprender a jugar al ajedrez, así como también recursos para mejorar tu juego.",
+        "intro-heading": "Introducción al ajedrez",
+        "intro-par1": "El ajedrez es un juego de estrategia para dos personas que se juega en un tablero cuadrado con 64 casillas, alternando las casillas de color claro y oscuro. Cada jugador tiene un conjunto de 16 piezas: un rey, una reina, dos caballos, dos torres, dos alfiles y ocho peones. El objetivo del juego es capturar el rey del oponente con el denominado \"jaque mate\", pero también se puede ganar por rendición del oponente.",
+        "intro-par2": "Las piezas se mueven de diferentes maneras: los peones se mueven hacia adelante pero solo capturan las piezas del oponente en diagonal, las torres se mueven en línea recta vertical u horizontal, los alfiles en diagonal pero sin cambiar de color de casilla, los caballos se mueven en forma de L, y la reina se mueve en cualquier dirección. El rey se mueve solo una casilla en cualquier dirección.",
+        "intro-par3": "Un empate se puede dar por diferentes motivos, como por ejemplo si no hay suficientes piezas en el tablero para ganar, si hay una posición repetida, o si ningún jugador puede realizar un movimiento válido. El ajedrez es un juego muy popular en todo el mundo y se considera una actividad mentalmente estimulante y divertida.",
         "price_heading": "¿Quieres ser parte de nuestro club?",
         "price_colaborador_title": "Colaborador",
         "price_pro_title": "Pro",

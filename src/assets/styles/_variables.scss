@@ -29,8 +29,8 @@
   src: url("../fonts/AinoWeb-Italic.woff") format('woff'),
 }
 
-$font-family-reg: Aino, sans-serif;
-$font-family-bold: Aino, sans-serif;
+$fontFamilyReg: "Aino", sans-serif;
+$fontFamilyBold: "Aino", sans-serif;
 
 $primary: #0000f0;
 $secondary: #00005a;
@@ -46,13 +46,12 @@ $theme-colors: (
   "dark": $dark,
 );
 
-// Media queries
-
+/* Media queries */
 $mobile: 320px;
 $tablet: 768px;
 $desktop: 1024px;
 
- // Rooting CARD component
+ /* Rooting CARD component */
  $card-height: 600px;
 
 .card {
@@ -65,7 +64,7 @@ $desktop: 1024px;
   justify-content: space-evenly;
 }
 
-// Boton de navegacion
+/* Boton de navegacion */
 
 $navbar-light-toggler-border-color: transparent;
 $navbar-toggler-focus-width: 0;

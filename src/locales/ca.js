@@ -31,9 +31,14 @@ export const caLocale = {
     practice: {
         "heading": "Creix com a jugador/a",
         "subheading": "Aprendre a jugar a escacs és un procés que requereix temps i dedicació. Aquestes són algunes de les millors eines per ajudar-te a millorar el teu joc. En aquesta secció, trobaràs recursos per aprendre a jugar a escacs, així com també recursos per millorar el teu joc.",
+        "intro-heading": "Introducció al escacs",
+        "intro-par1": "Els escacs són un joc d'estratègia per a dues persones que es juga en un taulell quadrat amb 64 caselles, alternant les caselles de color clar i fosc. Cada jugador té un conjunt de 16 peces: un rei, una reina, dos cavalls, dos torres, dos alfil, i vuit peons. L'objectiu del joc és capturar el rei de l'oponent amb el denominat \"escac i mat\", però també es pot guanyar per rendició de l'oponent.",
+        "intro-par2": "Les peces es mouen de diferents maneres: els peons es mouen cap endavant però només capturen les peces de l'oponent en diagonal, les torres es mouen en liniea recte vertical o horitzontal, els alfil en diagonal però sense canviar de color de casella, els cavalls es mouen en forma de L, i la reina es mou en qualsevol direcció. El rei es mou només una casella en qualsevol direcció.",
+        "intro-par3": "Un empat es pot donar per diferents motius, com ara si no hi ha prou peces al taulell per a guanyar, si hi ha una posició repetida, o si cap jugador pot realitzar un moviment vàlid. Els escacs són un joc molt popular en tot el món i es consideren una activitat mentalment estimulant i divertida.",
         "price_heading": "Vols formar part del nostre club?",
         "price_colaborador_title": "Col·laborador",
         "price_pro_title": "Pro",
+
     },
 
     footer: {

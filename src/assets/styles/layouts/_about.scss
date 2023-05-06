@@ -1,5 +1,6 @@
 .about__heading {
-    @include color-heading($primary);
+    @include color-heading($primary, $dark);
+
 }
 
 .card-img-top {

@@ -1,23 +1,21 @@
+.blog {
+    
+    &__heading {
+        @include color-heading($primary, $dark);
+    }
+}
 
+.carousel-inner {
+    height: 100%;
 
-.blog__carousel{
-
-    & .carousel-inner {
-        height: 100%;
-
-        @media (min-width: $tablet) {
-            height: 50vh;
-        }
+    @media (min-width: $tablet) {
+        height: 50vh;
     }
 }
 
 
-.carousel-item {
-
-    & img {
+.carousel-item img{
         object-fit: cover;
-
-    }
 }
 
 .media.media-news {
